@@ -128,7 +128,7 @@ API requests rates are tracked by account subdomain and incoming IP address, so 
 Wrappers and example code
 -------------------------
 
-* Ruby: [Example wrapper by 37signals](https://github.com/37signals/backpack-api/tree/master/example_wrapper.rb)
+* Ruby: [Example wrapper by 37signals](https://github.com/37signals/backpack-api/blob/master/ruby_wrapper.rb)
 * PHP: [SimpleBackpack](http://www.engadgeted.net/projects/simplebackpack-php-wrapper-class-for-backpack-api/)
 * Perl: [Net::Backpack](http://search.cpan.org/dist/Net-Backpack/)
 * Emacs: [backpack.el](http://github.com/hober/37emacs/blob/master/backpack.el)
