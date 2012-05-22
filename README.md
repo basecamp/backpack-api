@@ -90,6 +90,8 @@ If something goes wrong in the request, you’ll get one of two errors. This one
 </response>
 ```
 
+The API returns HTTP status code `200 OK` when succesful unless otherwise noted.
+
 API Endpoints
 -------------
 
@@ -134,6 +136,15 @@ Wrappers and example code
 * Emacs: [backpack.el](http://github.com/hober/37emacs/blob/master/backpack.el)
 
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
+
+
+Documentation Conventions
+-------------------------
+
+To make things easier to understand, the following notation is used:
+
+* `#{text}`: Indicates text that should be replaced by your own data
+* `...`: Indicates content from the response has been elided for brevity in documentation. See the list of data responses at the end of the page for a full description of the format of that response type.
 
 
 Help us make it better
