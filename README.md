@@ -107,6 +107,8 @@ API Endpoints
 * [Journal](http://giving.com/37signals/backpack-api/blob/master/sections/journal.md)
 * [Users](https://github.com/37signals/backpack-api/blob/master/sections/users.md)
 * [Bookmarks](http://giving.com/37signals/backpack-api/blob/master/sections/bookmarks.md)
+* [Calendar](https://github.com/37signals/backpack-api/blob/master/sections/calendar.md)
+* [Calendar Events](http://giving.com/37signals/backpack-api/blob/master/sections/calendar_events.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 
@@ -130,7 +132,7 @@ API requests rates are tracked by account subdomain and incoming IP address, so 
 Wrappers and example code
 -------------------------
 
-* Ruby: [Example wrapper by 37signals](https://github.com/37signals/backpack-api/blob/master/ruby_wrapper.rb)
+* Ruby: [Example wrapper](https://github.com/37signals/backpack-api/blob/master/ruby_wrapper.rb), [Example calendar wrapper](https://github.com/37signals/backpack-api/blob/master/backpack_calendar.rb)
 * PHP: [SimpleBackpack](http://www.engadgeted.net/projects/simplebackpack-php-wrapper-class-for-backpack-api/)
 * Perl: [Net::Backpack](http://search.cpan.org/dist/Net-Backpack/)
 * Emacs: [backpack.el](http://github.com/hober/37emacs/blob/master/backpack.el)

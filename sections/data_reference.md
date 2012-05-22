@@ -117,3 +117,38 @@ User
   </reminders>
 </user>
 ```
+
+Calendar
+--------
+
+``` xml
+<calendar>
+  <account-id type="integer">11</account-id>
+  <color>000099</color>
+  <created-at type="datetime">2006-09-27T20:32:15Z</created-at>
+  <ical-subscription-url></ical-subscription-url>
+  <id type="integer">5</id>
+  <name>Personal</name>
+  <token>520</token>
+  <updated-at type="datetime">2006-09-27T20:32:15Z</updated-at>
+</calendar>
+```
+
+Calendar Event
+--------------
+
+``` xml
+<calendar-event>
+  <all-day type="boolean">true</all-day>
+  <calendar-id type="integer">5</calendar-id>
+  <created-at type="datetime">2006-09-21T20:59:19Z</created-at>
+  <id type="integer">21</id>
+  <message>dinner with lisa</message>
+  <occurs-at type="datetime">2006-10-06T00:00:00Z</occurs-at>
+  <occurs-until type="datetime"></occurs-until>
+  <remind type="boolean">false</remind>
+  <reminded-at type="datetime"></reminded-at>
+  <title>dinner with lisa</title>
+  <updated-at type="datetime">2006-09-21T20:59:19Z</updated-at>
+</calendar-event>
+```
