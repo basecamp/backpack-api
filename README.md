@@ -96,19 +96,19 @@ API Endpoints
 -------------
 
 * [Pages](https://github.com/37signals/backpack-api/blob/master/sections/pages.md)
-* [Lists](http://giving.com/37signals/backpack-api/blob/master/sections/lists.md)
+* [Lists](https://github.com/37signals/backpack-api/blob/master/sections/lists.md)
 * [List Items](https://github.com/37signals/backpack-api/blob/master/sections/list_items.md)
-* [Notes](http://giving.com/37signals/backpack-api/blob/master/sections/notes.md)
+* [Notes](https://github.com/37signals/backpack-api/blob/master/sections/notes.md)
 * [Separators](https://github.com/37signals/backpack-api/blob/master/sections/separators.md)
-* [Tags](http://giving.com/37signals/backpack-api/blob/master/sections/tags.md)
+* [Tags](https://github.com/37signals/backpack-api/blob/master/sections/tags.md)
 * [Reminders](https://github.com/37signals/backpack-api/blob/master/sections/reminders.md)
-* [Emails](http://giving.com/37signals/backpack-api/blob/master/sections/emails.md)
+* [Emails](https://github.com/37signals/backpack-api/blob/master/sections/emails.md)
 * [Status](https://github.com/37signals/backpack-api/blob/master/sections/status.md)
-* [Journal](http://giving.com/37signals/backpack-api/blob/master/sections/journal.md)
+* [Journal](https://github.com/37signals/backpack-api/blob/master/sections/journal.md)
 * [Users](https://github.com/37signals/backpack-api/blob/master/sections/users.md)
-* [Bookmarks](http://giving.com/37signals/backpack-api/blob/master/sections/bookmarks.md)
-* [Calendar](https://github.com/37signals/backpack-api/blob/master/sections/calendar.md)
-* [Calendar Events](http://giving.com/37signals/backpack-api/blob/master/sections/calendar_events.md)
+* [Bookmarks](https://github.com/37signals/backpack-api/blob/master/sections/bookmarks.md)
+* [Calendars](https://github.com/37signals/backpack-api/blob/master/sections/calendars.md)
+* [Calendar Events](https://github.com/37signals/backpack-api/blob/master/sections/calendar_events.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 
