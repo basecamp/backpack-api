@@ -133,7 +133,6 @@ Wrappers and example code
 -------------------------
 
 * Ruby: [Example wrapper](https://github.com/37signals/backpack-api/blob/master/ruby_wrapper.rb), [Example calendar wrapper](https://github.com/37signals/backpack-api/blob/master/backpack_calendar.rb)
-* PHP: [SimpleBackpack](http://www.engadgeted.net/projects/simplebackpack-php-wrapper-class-for-backpack-api/)
 * Perl: [Net::Backpack](http://search.cpan.org/dist/Net-Backpack/)
 * Emacs: [backpack.el](http://github.com/hober/37emacs/blob/master/backpack.el)
 
