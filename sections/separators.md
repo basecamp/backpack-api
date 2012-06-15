@@ -55,6 +55,10 @@ Destroy
 
 * `DELETE /pages/#{page_id}/separators/#{id}.xml` removes a separator from the page.
 
+Alternatively:
+
+* `POST /ws/page/#{page_id}/separators/destroy/#{id}`
+
 **Request:**
 
 ``` xml
