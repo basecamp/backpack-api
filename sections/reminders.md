@@ -19,7 +19,7 @@ List upcoming
     </remindees>
   </reminder>
   <reminder id="6">
-    <remind_at>"2007-09-03 15:59:00"</remind_at>
+    <remind_at>2007-09-03 15:59:00</remind_at>
     <content>World!</content>
     <creator id="456" name="Jane D." />
     <remindees>
