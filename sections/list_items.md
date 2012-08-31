@@ -36,7 +36,7 @@ Create
 ``` xml
 <request>
   <token>202cb962ac59075b964b07152d234b70</token>
-  <item><content>I'm a new item!</content></item>
+  <item completed='true'><content>I'm a new, completed item!</content></item>
 </request>
 ```
 
@@ -44,7 +44,7 @@ Create
 
 ``` xml
 <response success='true'>
-  <item id='5' list_id='1' completed='false'>I'm a new item!</item>
+  <item id='5' list_id='1' completed='true'>I'm a new, completed item!</item>
 </response>
 ```
 
@@ -58,7 +58,7 @@ Update
 ``` xml
 <request>
   <token>202cb962ac59075b964b07152d234b70</token>
-  <item><content>I'm an updated item!</content></item>
+  <item completed='true'><content>I'm an updated item! My content will be changed and I will be marked completed.</content></item>
 </request>
 ```
 
