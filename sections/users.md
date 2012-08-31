@@ -14,10 +14,22 @@ This can be handy for finding out the user's `user_id` from their login token, o
 
 ``` xml
 <user>
+  <account-id type="integer">89</account-id>
+  <created-at type="datetime">2000-01-01T00:00:00Z</created-at>
   <id type="integer">1234</id>
+  <identity-url nil="true"/>
+  <mobile-phone-host nil="true"/>
+  <mobile-phone-number nil="true"/>
+  <remind-via-email type="boolean">true</remind-via-email>
+  <remind-via-mobile type="boolean">false</remind-via-mobile>
+  <reminder-address>johndoe@somedomain</reminder-address>
+  <start-page-id type="integer">2345</start-page-id>
+  <time-zone-id>Pacific Time (US &amp; Canada)</time-zone-id>
+  <updated-at type="datetime">2000-03-01T00:00:00Z</updated-at>
+  <use-24h-clock type="boolean">false</use-24h-clock>
   <name>John Doe</name>
-  <start-page-id>2345</start-page-id>
-  ...
+  <email-address>johndoe@somedomain</email-address>
+  <admin type="boolean">true</admin>
 </user>
 ```
 
