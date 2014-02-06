@@ -11,7 +11,7 @@ Authentication happens by accessing a url that belongs to the user, like http://
 
 If you're making a public integration with Backpack for others to enjoy, you can also use OAuth 2. This allows users to authorize your application to use Basecamp Classic on their behalf without having to copy/paste API tokens or touch sensitive login info.
 
-Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
+Read the [Basecamp API Authentication Guide](https://github.com/basecamp/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
 Identify your app
 -----------------
@@ -102,24 +102,24 @@ The API returns HTTP status code `200 OK` when succesful unless otherwise noted.
 API Endpoints
 -------------
 
-* [Pages](https://github.com/37signals/backpack-api/blob/master/sections/pages.md)
-* [Lists](https://github.com/37signals/backpack-api/blob/master/sections/lists.md)
-* [List Items](https://github.com/37signals/backpack-api/blob/master/sections/list_items.md)
-* [Notes](https://github.com/37signals/backpack-api/blob/master/sections/notes.md)
-* [Separators](https://github.com/37signals/backpack-api/blob/master/sections/separators.md)
-* [Tags](https://github.com/37signals/backpack-api/blob/master/sections/tags.md)
-* [Reminders](https://github.com/37signals/backpack-api/blob/master/sections/reminders.md)
-* [Emails](https://github.com/37signals/backpack-api/blob/master/sections/emails.md)
-* [Status](https://github.com/37signals/backpack-api/blob/master/sections/status.md)
-* [Journal](https://github.com/37signals/backpack-api/blob/master/sections/journal.md)
-* [Users](https://github.com/37signals/backpack-api/blob/master/sections/users.md)
-* [Bookmarks](https://github.com/37signals/backpack-api/blob/master/sections/bookmarks.md)
-* [Calendars](https://github.com/37signals/backpack-api/blob/master/sections/calendars.md)
-* [Calendar Events](https://github.com/37signals/backpack-api/blob/master/sections/calendar_events.md)
+* [Pages](https://github.com/basecamp/backpack-api/blob/master/sections/pages.md)
+* [Lists](https://github.com/basecamp/backpack-api/blob/master/sections/lists.md)
+* [List Items](https://github.com/basecamp/backpack-api/blob/master/sections/list_items.md)
+* [Notes](https://github.com/basecamp/backpack-api/blob/master/sections/notes.md)
+* [Separators](https://github.com/basecamp/backpack-api/blob/master/sections/separators.md)
+* [Tags](https://github.com/basecamp/backpack-api/blob/master/sections/tags.md)
+* [Reminders](https://github.com/basecamp/backpack-api/blob/master/sections/reminders.md)
+* [Emails](https://github.com/basecamp/backpack-api/blob/master/sections/emails.md)
+* [Status](https://github.com/basecamp/backpack-api/blob/master/sections/status.md)
+* [Journal](https://github.com/basecamp/backpack-api/blob/master/sections/journal.md)
+* [Users](https://github.com/basecamp/backpack-api/blob/master/sections/users.md)
+* [Bookmarks](https://github.com/basecamp/backpack-api/blob/master/sections/bookmarks.md)
+* [Calendars](https://github.com/basecamp/backpack-api/blob/master/sections/calendars.md)
+* [Calendar Events](https://github.com/basecamp/backpack-api/blob/master/sections/calendar_events.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 
-Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/backpack-api/blob/master/sections/data_reference.md).
+Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/basecamp/backpack-api/blob/master/sections/data_reference.md).
 
 
 SSL Usage
@@ -139,7 +139,7 @@ API requests rates are tracked by account subdomain and incoming IP address, so 
 Wrappers and example code
 -------------------------
 
-* Ruby: [Example wrapper](https://github.com/37signals/backpack-api/blob/master/ruby_wrapper.rb), [Example calendar wrapper](https://github.com/37signals/backpack-api/blob/master/backpack_calendar.rb)
+* Ruby: [Example wrapper](https://github.com/basecamp/backpack-api/blob/master/ruby_wrapper.rb), [Example calendar wrapper](https://github.com/basecamp/backpack-api/blob/master/backpack_calendar.rb)
 * Perl: [Net::Backpack](http://search.cpan.org/dist/Net-Backpack/)
 * Emacs: [backpack.el](http://github.com/hober/37emacs/blob/master/backpack.el)
 
@@ -158,6 +158,6 @@ To make things easier to understand, the following notation is used:
 Help us make it better
 ----------------------
 
-Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.37signals.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
+Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.basecamp.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
 
-To talk with us and other developers about the API, subscribe to the [37signals-api mailing list](http://groups.google.com/group/37signals-api).
+To talk with us and other developers about the API, subscribe to the [basecamp-api mailing list](http://groups.google.com/group/basecamp-api).

@@ -1,5 +1,5 @@
 # Requires that XmlSimple is already loaded.
-# Author: David Heinemeier Hansson, 37signals
+# Author: David Heinemeier Hansson, Basecamp
 
 require 'yaml'
 require 'net/https'
